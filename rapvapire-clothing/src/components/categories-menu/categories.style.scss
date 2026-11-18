@@ -1,0 +1,14 @@
+.categories-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 500px) {
+  .categories-container {
+    padding-top: 15px;
+  }
+}
